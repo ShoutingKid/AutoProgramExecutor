@@ -3,7 +3,7 @@ import time
 
 time.sleep(1) #you can also change this time
 
-pyauto.write("cd desktop") #speciify the directory your file is in
+pyauto.write("cd desktop") #specify the directory your file is in
 pyauto.press("enter")
 time.sleep(0.1) #you can change the time as per your needs
 pyauto.write("cd my projects")
